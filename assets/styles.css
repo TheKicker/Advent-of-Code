@@ -1,0 +1,71 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background: black;
+    color: rgb(72, 255, 0);
+    font-family: monospace;
+}
+
+#container{
+    margin: auto;
+    width: 60%;
+    padding: 1rem;
+}
+
+#image{
+    display: block;
+    margin: 1.5rem auto;
+    max-width: 100%;
+}
+
+#list{
+    list-style: none;
+    padding: 1rem 2rem;
+}
+
+li{
+    padding: 5px 0;
+    font-size: 16px;
+}
+
+a{
+    color:rgb(255, 255, 255)
+}
+
+h1{
+    font-size: 23px;
+}
+
+h2{
+    display: grid;
+    place-items: center;
+    padding: 5rem 0;
+}
+
+p{
+    padding: 1rem 0;
+    font-size: 16px;
+}
+
+/* On screens that are 600px or less, set the background color to olive */
+@media screen and (max-width: 800px) {
+    #container{
+        width: 100%;
+    }
+    #list{
+        list-style: none;
+        padding: 0.5rem;
+    }
+    li{
+        font-size: 12px;
+    }
+    h2{
+        display: grid;
+        place-items: center;
+        padding: 1rem 0;
+    }
+  }
