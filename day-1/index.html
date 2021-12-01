@@ -19,8 +19,20 @@
 
         <pre>
             <code>
-                # Script.py
-                
+                # part-one.py
+
+                ocean_floor = []
+                increases = 0
+
+                with open('data.txt', 'r') as of:
+                    for line in of:
+                        ocean_floor.append(int(line))
+
+                for depth in range(0,len(ocean_floor)-2):
+                    if(ocean_floor[depth] < ocean_floor[depth+1]):
+                        increases += 1
+
+                print(increases)
             </code>
         </pre>
  
