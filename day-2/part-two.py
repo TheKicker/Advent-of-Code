@@ -1,16 +1,27 @@
 # New array
-ocean_floor = []
-increases = 0
+driving_instructions = []
+aim = 0
+forward = 0
+depth = 0
+digit = 0
 
-# Open dataset, append each line of the text file to our array
-with open('data.txt', 'r') as of:
-    for line in of:
-        ocean_floor.append(int(line))
+# Open dataset, append each line of the text file to our array, remove white space and \n from each element
+with open('data.txt', 'r') as di:
+    for line in di:
+        driving_instructions.append(line.strip())
 
-# Loop through the data set and count how many increses there are
-for depth in range(0,len(ocean_floor)-3):
-    # Using a three-depth sliding window for comparison now
-    if(ocean_floor[depth]+ocean_floor[depth+1]+ocean_floor[depth+2] < ocean_floor[depth+1]+ocean_floor[depth+2]+ocean_floor[depth+3]):
-        increases += 1
+# For each line in the driving instructions, extract the command and digit
+for line in driving_instructions:
+    if "forward" in line:
+        digit = [int(s) for s in line.split() if s.isdigit()]
+        forward += digit[0]
+        depth += (aim * digit[0])
+    if "up" in line:
+        digit = [int(s) for s in line.split() if s.isdigit()]
+        aim = aim - digit[0]
+    if "down" in line:
+        digit = [int(s) for s in line.split() if s.isdigit()]
+        aim += digit[0]
 
-print(increases) # Prints out the correct answer of 1797
+print(forward, depth)
+print(forward*depth)

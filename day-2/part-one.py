@@ -21,3 +21,4 @@ for line in driving_instructions:
         depth += digit[0]
 
 print(forward, depth)
+print(forward*depth)
