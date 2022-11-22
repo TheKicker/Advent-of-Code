@@ -1,6 +1,6 @@
 const fs = require('fs');
 
-var arr = fs.readFileSync('../puzzle.txt').toString().split("\n");
+var arr = fs.readFileSync('puzzle.txt').toString().split("\n");
 
 // for each item in the array, add every other item in the array, if it equals 2020 stop and spit out the two parents
 for (var x = 0; x < arr.length; x++)
