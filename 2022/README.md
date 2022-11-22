@@ -9,6 +9,8 @@ Reddit - <a href="https://www.reddit.com/r/adventofcode/">Advent of Code (Reddit
 <br> 
 
 <div align=center>
-    <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/python/python.png" height=55>
-    <h2>Made with Python</h2>
-</div>   
+    <img src="https://raw.githubusercontent.com/github/explore/80688e429a7d4ef2fca1e82350fe8e3517d3494d/topics/javascript/javascript.png" height=55>
+    <h2>Made with Javascript & Node.js</h2>
+</div>  
+
+<br>

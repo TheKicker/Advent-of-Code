@@ -16,3 +16,5 @@ Reddit - <a href="https://www.reddit.com/r/adventofcode/">Advent of Code (Reddit
 | 2022            | ![](https://geps.dev/progress/00) | Node.js                 |
 
 *2020 is being completed after the fact.  Doing it for programming practice. 
+
+<br>
