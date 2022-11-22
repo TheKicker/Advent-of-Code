@@ -1,13 +1,20 @@
 const fs = require('fs');
+var file = fs.readFileSync('puzzle.txt').toString('utf-8').split("\n");
 
-var file = fs.readFileSync('puzzle.txt').toString().split("\n");
-
-var twoDimensional = []
+// regex to the rescue!
+const regex = /^(\d+)-(\d+) (\w): (\w+)$/
 
 for (var line = 0; line < file.length; line++)
 {
-    var oneDimensional = file[line].split()
-    twoDimensional.push(oneDimensional)
-}
+    const match = regex.exec(file[line]);
 
-console.log(twoDimensional)
+    const min = parseInt(match[1]);
+    const max = parseInt(match[2]);
+    const char = match[3];
+    const pass = match[4];
+
+    console.log(`${char} and ur password is ${pass}`)
+
+    // Do stuff now with the variables
+    
+}
