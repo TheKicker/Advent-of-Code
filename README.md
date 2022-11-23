@@ -11,7 +11,7 @@ Reddit - <a href="https://www.reddit.com/r/adventofcode/">Advent of Code (Reddit
 <!-- https://github.com/gepser/markdown-progress -->
 | Year            | Percentage Completed              | Language Used           |
 | --------------- | --------------------------------- | ----------------------- |
-| 2020*           | ![](https://geps.dev/progress/06) | Node.js                 |
+| 2020*           | ![](https://geps.dev/progress/08) | Node.js                 |
 | 2021            | ![](https://geps.dev/progress/12) | Python                  |
 | 2022            | ![](https://geps.dev/progress/00) | Node.js                 |
 
