@@ -18,3 +18,16 @@ Reddit - <a href="https://www.reddit.com/r/adventofcode/">Advent of Code (Reddit
 *2020 is being completed after the fact.  Doing it for programming practice. 
 
 <br>
+
+# Dependencies (as few as possible)
+
+
+Uses Figlet for pretty ASCII art output
+```
+    npm install figlet
+```
+
+Uses cli-progress for progress bar
+```
+    npm install cli-progress
+```
