@@ -26,4 +26,5 @@ maxArr = maxArr.sort((a,b)=>b-a)
 // console.log(`Highest: ${maxArr[0]} / Top-3 Sum: ${maxArr[0]+maxArr[1]+maxArr[2]}`)
 
 exports.highest = maxArr[0]
-exports.combination = maxArr[0] + maxArr[1] + maxArr[2]
+exports.sum = maxArr[0] + maxArr[1] + maxArr[2]
+exports.logger = `Day 01 - Highest & Sum: ${maxArr[0]} / ${maxArr[0] + maxArr[1] + maxArr[2]}`

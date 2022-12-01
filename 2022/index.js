@@ -6,6 +6,7 @@
 const figlet = require('figlet');
 
 var dayOne = require('./day-1/index')
+var dayTwo = require('./day-2/index')
 
 figlet('Advent of Code 2022', function(err, data) {
     if (err) {
@@ -14,7 +15,8 @@ figlet('Advent of Code 2022', function(err, data) {
         return;
     }
     console.log(data)
-    console.log(`Day 01 - Highest & Sum: ${dayOne.highest} / ${dayOne.combination}`)
+    console.log(dayOne.logger)
+    console.log(dayTwo.logger)
 
     console.log("\n")
 })
