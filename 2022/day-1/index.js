@@ -1,5 +1,5 @@
 const fs = require('fs');
-var arr = fs.readFileSync('data.txt').toString().split("\n");
+var arr = fs.readFileSync('./day-1/data.txt').toString().split("\n");
 
 // iterate through array
 // if it contains a number
@@ -23,4 +23,7 @@ for(var i = 0; i < arr.length; i++)
     }
 }
 maxArr = maxArr.sort((a,b)=>b-a)
-console.log(`Highest: ${maxArr[0]} / Top-3 Sum: ${maxArr[0]+maxArr[1]+maxArr[2]}`)
+// console.log(`Highest: ${maxArr[0]} / Top-3 Sum: ${maxArr[0]+maxArr[1]+maxArr[2]}`)
+
+exports.highest = maxArr[0]
+exports.combination = maxArr[0] + maxArr[1] + maxArr[2]
