@@ -19,15 +19,30 @@ Reddit - <a href="https://www.reddit.com/r/adventofcode/">Advent of Code (Reddit
 
 <br>
 
+# How to run
+
+
+Install Dependencies
+```
+    $ git clone https://github.com/YOUR_USERNAME/PROJECT_TITLE
+    $ cd PROJECT_TITLE
+    $ npm install
+```
+
+Run Node
+```
+    $ npm run aoc
+```
+
 # Dependencies (as few as possible)
 
 
 Uses Figlet for pretty ASCII art output
 ```
-    npm install figlet
+    $ npm install figlet
 ```
 
 Uses cli-progress for progress bar
 ```
-    npm install cli-progress
+    $ npm install cli-progress
 ```
