@@ -15,7 +15,9 @@ figlet('Advent of Code 2022', function(err, data) {
         return;
     }
     console.log(data)
+    
     console.log(dayOne.logger)
+
     console.log(dayTwo.logger)
 
     console.log("\n")
