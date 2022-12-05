@@ -1,5 +1,5 @@
 const fs = require('fs');
-let arr = fs.readFileSync('./day-3/data.txt').toString().split("\n");
+let arr = fs.readFileSync('./day-3/data.txt', 'utf-8').toString().split("\n");
 
 let priorities = [0, "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" ]
 let sum = 0;

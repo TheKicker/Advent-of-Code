@@ -1,5 +1,5 @@
 const fs = require('fs');
-var arr = fs.readFileSync('./day-1/data.txt').toString().split("\n");
+var arr = fs.readFileSync('./day-1/data.txt', 'utf-8').toString().split("\n");
 
 // iterate through array
 // if it contains a number

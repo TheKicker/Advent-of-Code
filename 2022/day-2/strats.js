@@ -1,5 +1,5 @@
 const fs = require('fs');
-let arr = fs.readFileSync('./day-2/data.txt').toString().split("\n");
+let arr = fs.readFileSync('./day-2/data.txt', 'utf-8').toString().split("\n");
 
 let score = 0
 
