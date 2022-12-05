@@ -25,7 +25,7 @@ figlet('Advent of Code 2022', function(err, data) {
 
     console.log(`Day 03 - Sum One & Sum Two: ${dayThree.sum} & ${dayThree.sum2}`)
 
-    console.log(`Day 04 - Pairs: ${dayFour.pairs}`)
+    console.log(`Day 04 - Overlapping Pairs: ${dayFour.overlapOne} & ${dayFour.overlapTwo}`)
 
     console.log("\n")
 })
