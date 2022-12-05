@@ -1,13 +1,13 @@
 const fs = require('fs');
-var arr = fs.readFileSync('./day-2/data.txt').toString().split("\n");
+let arr = fs.readFileSync('./day-2/data.txt').toString().split("\n");
 
-var score = 0;
+let score = 0;
 
-for(var i = 0; i < arr.length; i++)
+for(let i = 0; i < arr.length; i++)
 {
-    var moves = arr[i].split(' ')
-    var oppy = moves[0]
-    var plyr = moves[1]
+    let moves = arr[i].split(' ')
+    let oppy = moves[0]
+    let plyr = moves[1]
     plyr = plyr.replace(/(\r\n|\n|\r)/gm, "");
 
     // console.log(`OPP: ${oppy} / PLY: ${plyr}`)

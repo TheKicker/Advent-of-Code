@@ -1,5 +1,7 @@
 const fs = require('fs');
-var arr = fs.readFileSync('./test-data.txt').toString().split("\n");
+var arr = fs.readFileSync('./data.txt').toString().split("\n");
+
+let score = 0
 
 for(var i = 0; i < arr.length; i++)
 {
@@ -13,17 +15,54 @@ for(var i = 0; i < arr.length; i++)
     // B = Paper            Y = Tie
     // C = Scissors         Z = Win
 
-    if (oppy == "A")
+    if (oppy == "A") // Rock
     {
-        // Do Stuff
+        if (outcome == "X")
+        {
+            score += 3
+        }
+        else if (outcome == "Y")
+        {
+            score += 4
+        }
+        else if (outcome == "Z")
+        {
+            score += 8
+        }
     }
-    else if (oppy == "B")
+    else if (oppy == "B") // Paper
     {
-        // Do Stuff
+        if (outcome == "X")
+        {
+            score += 1
+        }
+        else if (outcome == "Y")
+        {
+            score += 5
+        }
+        else if (outcome == "Z")
+        {
+            score += 9
+        }
     }
-    else if (oppy == "C")
+    else if (oppy == "C") // Scissors
     {
-        // Do Stuff
+        if (outcome == "X")
+        {
+            score += 2
+        }
+        else if (outcome == "Y")
+        {
+            score += 6
+        }
+        else if (outcome == "Z")
+        {
+            score += 7
+        }
     }
     else { console.log("Invalid Oppy move")}
+
+    console.log(score)
 }
+
+exports.logger = `Day 02 - Strats is ${score}`
