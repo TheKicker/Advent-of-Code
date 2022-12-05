@@ -6,7 +6,7 @@
 const figlet = require('figlet');
 
 var dayOne = require('./day-1/index')
-var dayTwo = require('./day-2/index')
+var dayTwo = require('./day-2/points')
 
 figlet('Advent of Code 2022', function(err, data) {
     if (err) {
@@ -15,7 +15,7 @@ figlet('Advent of Code 2022', function(err, data) {
         return;
     }
     console.log(data)
-    
+
     console.log(dayOne.logger)
 
     console.log(dayTwo.logger)
