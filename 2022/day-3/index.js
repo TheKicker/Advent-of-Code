@@ -3,7 +3,9 @@ let arr = fs.readFileSync('./day-3/data.txt').toString().split("\n");
 
 let priorities = [0, "a", "b", "c", "d", "e", "f", "g", "h", "i", "j", "k", "l", "m", "n", "o", "p", "q", "r", "s", "t", "u", "v", "w", "x", "y", "z", "A", "B", "C", "D", "E", "F", "G", "H", "I", "J", "K", "L", "M", "N", "O", "P", "Q", "R", "S", "T", "U", "V", "W", "X", "Y", "Z" ]
 let sum = 0;
+let sum2 = 0;
 
+// Part One
 for(let i = 0; i < arr.length; i++)
 {
     let sack = arr[i]
@@ -37,4 +39,25 @@ for(let i = 0; i < arr.length; i++)
     // console.log(sum)
 }
 
+// Part Two
+for (let x = 0; x < arr.length; x+=3)
+{
+    const first = [...arr[x]];
+    const second = arr[x + 1];
+    const third = arr[x + 2];
+    let found = false;
+
+    first.forEach((element) => {
+        if (second.includes(element) && third.includes(element) && !found) {
+            found = true;
+            if (element == element.toLocaleLowerCase()) {
+              sum2 += element.charCodeAt(0) - 96;
+            } else {
+              sum2 += element.charCodeAt(0) - 38;
+            }
+        }
+    });
+}
+
 exports.sum = sum
+exports.sum2 = sum2
