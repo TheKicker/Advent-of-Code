@@ -7,6 +7,7 @@ const figlet = require('figlet');
 
 var dayOne = require('./day-1/index')
 var dayTwo = require('./day-2/points')
+var dayTwoTwo = require('./day-2/strats')
 
 figlet('Advent of Code 2022', function(err, data) {
     if (err) {
@@ -18,7 +19,7 @@ figlet('Advent of Code 2022', function(err, data) {
 
     console.log(dayOne.logger)
 
-    console.log(dayTwo.logger)
+    console.log(`Day 02 - Score & Strats: ${dayTwo.logger} & ${dayTwoTwo.logger}`)
 
     console.log("\n")
 })

@@ -94,4 +94,4 @@ for(let i = 0; i < arr.length; i++)
     // console.log(score)
 }
 
-exports.logger = `Day 02 - Score is ${score}`
+exports.logger = score

@@ -27,4 +27,4 @@ maxArr = maxArr.sort((a,b)=>b-a)
 
 exports.highest = maxArr[0]
 exports.sum = maxArr[0] + maxArr[1] + maxArr[2]
-exports.logger = `Day 01 - Highest Count & Sum of Top Three: ${maxArr[0]} / ${maxArr[0] + maxArr[1] + maxArr[2]}`
+exports.logger = `Day 01 - Highest Count & Sum of Top Three: ${maxArr[0]} & ${maxArr[0] + maxArr[1] + maxArr[2]}`

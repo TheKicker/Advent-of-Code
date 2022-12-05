@@ -1,13 +1,13 @@
 const fs = require('fs');
-var arr = fs.readFileSync('./data.txt').toString().split("\n");
+let arr = fs.readFileSync('./day-2/data.txt').toString().split("\n");
 
 let score = 0
 
-for(var i = 0; i < arr.length; i++)
+for(let i = 0; i < arr.length; i++)
 {
-    var moves = arr[i].split(' ')
-    var oppy = moves[0]
-    var outcome = moves[1]
+    let moves = arr[i].split(' ')
+    let oppy = moves[0]
+    let outcome = moves[1]
     outcome = outcome.replace(/(\r\n|\n|\r)/gm, "");
 
     // Opponent             Desired Outcome 
@@ -62,7 +62,7 @@ for(var i = 0; i < arr.length; i++)
     }
     else { console.log("Invalid Oppy move")}
 
-    console.log(score)
+    // console.log(score)
 }
 
-exports.logger = `Day 02 - Strats is ${score}`
+exports.logger = score
