@@ -1,5 +1,5 @@
 const fs = require('fs');
-let arr = fs.readFileSync('./data.txt', 'utf-8').toString().split("\n");
+let arr = fs.readFileSync('./day-5/data.txt', 'utf-8').toString().split("\n");
 
 let testStack = [
     ['Z', 'N'],
