@@ -10,6 +10,7 @@ var dayTwo = require('./day-2/points')
 var dayTwoTwo = require('./day-2/strats')
 var dayThree = require('./day-3/index')
 var dayFour = require('./day-4/index')
+var dayFive = require('./day-5/index')
 
 figlet('Advent of Code 2022', function(err, data) {
     if (err) {
@@ -26,6 +27,8 @@ figlet('Advent of Code 2022', function(err, data) {
     console.log(`Day 03 - Sum One & Sum Two: ${dayThree.sum} & ${dayThree.sum2}`)
 
     console.log(`Day 04 - Overlapping Pairs: ${dayFour.overlapOne} & ${dayFour.overlapTwo}`)
+
+    console.log(`Day 05 - Stack 1 & 2: ${dayFive.output}`)
 
     console.log("\n")
 })
