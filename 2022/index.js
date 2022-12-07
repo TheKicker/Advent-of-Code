@@ -11,6 +11,8 @@ var dayTwoTwo = require('./day-2/strats')
 var dayThree = require('./day-3/index')
 var dayFour = require('./day-4/index')
 var dayFive = require('./day-5/index')
+var daySix = require('./day-6/four')
+var daySixTwo = require('./day-6/fourteen')
 
 figlet('Advent of Code 2022', function(err, data) {
     if (err) {
@@ -29,6 +31,8 @@ figlet('Advent of Code 2022', function(err, data) {
     console.log(`Day 04 - Overlapping Pairs: ${dayFour.overlapOne} & ${dayFour.overlapTwo}`)
 
     console.log(`Day 05 - Stack 1 & 2: ${dayFive.output}`)
+
+    console.log(`Day 06 - Unique 4 & Unique 14: ${daySix.four} & ${daySixTwo.fourteen}`)
 
     console.log("\n")
 })
