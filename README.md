@@ -13,7 +13,7 @@ Reddit - <a href="https://www.reddit.com/r/adventofcode/">Advent of Code (Reddit
 | --------------- | --------------------------------- | ----------------------- |
 | 2020*           | ![](https://geps.dev/progress/12) | Node.js                 |
 | 2021            | ![](https://geps.dev/progress/12) | Python                  |
-| 2022            | ![](https://geps.dev/progress/28) | Node.js                 |
+| 2022            | ![](https://geps.dev/progress/32) | Node.js                 |
 
 *2020 is being completed after the fact.  Doing it for programming practice. 
 

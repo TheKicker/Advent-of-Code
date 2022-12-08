@@ -38,7 +38,7 @@ figlet('Advent of Code 2022', function(err, data) {
 
     console.log(`Day 07 - Sum & Closest Size: ${daySeven.sum} & ${daySeven.closestSize}`)
 
-    console.log(`Day 08 - Tree Height: ${dayEight}`)
+    console.log(`Day 08 - Tree Height: ${dayEight.partOne} & ${dayEight.partTwo}`)
 
     console.log("\n")
 })

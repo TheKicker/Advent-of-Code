@@ -29,7 +29,7 @@ figlet('Advent of Code', function(err, data) {
     secondYear.stop();
 
     const thirdYear = new cliProgress.SingleBar({format: '2022 Progress | Node.js |' + `{bar}` + '| {percentage}% || {value}/{total} Stars',barCompleteChar: '\u2588',barIncompleteChar: '\u2591',hideCursor: true});
-    thirdYear.start(50, 14, {speed: "N/A"});
+    thirdYear.start(50, 16, {speed: "N/A"});
     thirdYear.stop();
 
     console.log("\n");
