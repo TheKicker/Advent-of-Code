@@ -5,14 +5,16 @@
 
 const figlet = require('figlet');
 
-var dayOne = require('./day-1/index')
-var dayTwo = require('./day-2/points')
-var dayTwoTwo = require('./day-2/strats')
-var dayThree = require('./day-3/index')
-var dayFour = require('./day-4/index')
-var dayFive = require('./day-5/index')
-var daySix = require('./day-6/four')
-var daySixTwo = require('./day-6/fourteen')
+const dayOne = require('./day-1/index')
+const dayTwo = require('./day-2/points')
+const dayTwoTwo = require('./day-2/strats')
+const dayThree = require('./day-3/index')
+const dayFour = require('./day-4/index')
+const dayFive = require('./day-5/index')
+const daySix = require('./day-6/four')
+const daySixTwo = require('./day-6/fourteen')
+const daySeven = require('./day-7/index')
+const dayEight = require('./day-8/index')
 
 figlet('Advent of Code 2022', function(err, data) {
     if (err) {
@@ -33,6 +35,10 @@ figlet('Advent of Code 2022', function(err, data) {
     console.log(`Day 05 - Stack 1 & 2: ${dayFive.output}`)
 
     console.log(`Day 06 - Unique 4 & Unique 14: ${daySix.four} & ${daySixTwo.fourteen}`)
+
+    console.log(`Day 07 - Sum & Closest Size: ${daySeven.sum} & ${daySeven.closestSize}`)
+
+    console.log(`Day 08 - Tree Height: ${dayEight}`)
 
     console.log("\n")
 })
