@@ -80,5 +80,5 @@ function setVisible(y, x, visible) {
     return max
   }
   
-  exports.partOne = part1();
-  exports.partTwo = part2();
+  exports.partOne = part1() ?? "Uh oh!";
+  exports.partTwo = part2() ?? "A wild Nullish coalescing operator (??) appeared!";

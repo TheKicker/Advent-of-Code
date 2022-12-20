@@ -15,6 +15,7 @@ const daySix = require('./day-6/four')
 const daySixTwo = require('./day-6/fourteen')
 const daySeven = require('./day-7/index')
 const dayEight = require('./day-8/index')
+const dayNine = require('./day-9/index')
 
 figlet('Advent of Code 2022', function(err, data) {
     if (err) {
@@ -39,6 +40,8 @@ figlet('Advent of Code 2022', function(err, data) {
     console.log(`Day 07 - Sum & Closest Size: ${daySeven.sum} & ${daySeven.closestSize}`)
 
     console.log(`Day 08 - Tree Height: ${dayEight.partOne} & ${dayEight.partTwo}`)
+
+    console.log(`Day 09 - Rope Head & Tail: ${dayNine.main}`)
 
     console.log("\n")
 })
