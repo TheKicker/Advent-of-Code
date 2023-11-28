@@ -2,9 +2,11 @@
 
 Join the fun - <a href="https://adventofcode.com/">AdventOfCode.com</a>
 
-Wikipedia - <a href="https://en.wikipedia.org/wiki/Advent_of_Code">Advent of Code (Wiki)</a>
+Wikipedia - <a href="https://en.wikipedia.org/wiki/Advent_of_Code">Advent of Code Wiki</a>
 
-Reddit - <a href="https://www.reddit.com/r/adventofcode/">Advent of Code (Reddit)</a>
+Reddit - <a href="https://www.reddit.com/r/adventofcode/">Advent of Code on Reddit</a>
+
+𝕏 - <a href="https://twitter.com/search?q=%23AdventOfCode">Advent of Code hashtag on X (formerly Twitter)</a>
 
 <br>
 
@@ -14,6 +16,7 @@ Reddit - <a href="https://www.reddit.com/r/adventofcode/">Advent of Code (Reddit
 | 2020*           | ![](https://geps.dev/progress/12) | Node.js                 |
 | 2021            | ![](https://geps.dev/progress/12) | Python                  |
 | 2022            | ![](https://geps.dev/progress/32) | Node.js                 |
+| 2023            | ![](https://geps.dev/progress/0) | Python                 |
 
 *2020 is being completed after the fact.  Doing it for programming practice. 
 
